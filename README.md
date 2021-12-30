@@ -1,2 +1,2 @@
 # goit-markup-hw-04
-Work with jpeg, svg, png iages/
+Work with jpeg, svg, png images
