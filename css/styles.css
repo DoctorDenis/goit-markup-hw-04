@@ -171,7 +171,7 @@ ol {
 /* .hero {
 } */
 
-.hero > .container {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--dark-grey-bg-color);
@@ -185,6 +185,7 @@ ol {
   background-position: center;
   background-size: cover;
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 .hero-head {
@@ -251,8 +252,8 @@ ol {
 
 .features-list-item-header {
   background-color: var(--secondary-bg-color);
-  padding-top: 25px;
-  padding-bottom: 25px;
+  width: 270px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -533,6 +534,7 @@ ol {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer > .section {
@@ -614,7 +616,7 @@ ol {
 
 .footer-social-block {
   margin-left: 70px;
-  padding-top: 12px;
+  /* padding-top: 12px; */
 }
 
 .footer-social-list {
